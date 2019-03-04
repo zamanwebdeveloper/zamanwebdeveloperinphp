@@ -92,7 +92,7 @@
 ?>
                 <div class="block">
 <?php
-    $query = "SELECT * FROM tbl_post WHERE id='$editPostId' ORDER by id desc";
+    $query = "SELECT * FROM tbl_post WHERE id='$editPostId'";
     $getpost = $db->select($query);
     if ($getpost) {
         while ($postResult = $getpost->fetch_assoc()) {
