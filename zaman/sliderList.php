@@ -21,7 +21,7 @@
                         $i=0;
                         while ($result = $slider->fetch_assoc()) {
                             $i++;
-                            ?>
+                    ?>
                             <tr class="odd gradeX">
                                 <td><?php echo $i; ?></td>
                                 <td><?php echo $result['title']; ?></td>

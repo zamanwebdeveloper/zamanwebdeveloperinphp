@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f635f3d-65e8-4a09-b5ec-0b8fcb4dd4af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zaman/deleteSlider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zaman/editSlider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/editpost.php" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/editpost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/upload/slider/74ab0d3f28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/upload/slider/7e79ff38df.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/upload/slider/9b34b619c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/upload/slider/cbc9a3afce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/slider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaman/sliderList.php" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/sliderList.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +14,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zaman/deleteSlider.php">
+        <entry file="file://$PROJECT_DIR$/inc/slider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="8" column="119" selection-start-line="8" selection-start-column="119" selection-end-line="8" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaman/sliderList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="31" selection-start-line="16" selection-start-column="20" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,14 +84,15 @@
         <option value="$PROJECT_DIR$/scripts/css.php" />
         <option value="$PROJECT_DIR$/zaman/inc/sidebarAdmin.php" />
         <option value="$PROJECT_DIR$/zaman/addSlider.php" />
-        <option value="$PROJECT_DIR$/zaman/sliderList.php" />
         <option value="$PROJECT_DIR$/zaman/editpost.php" />
         <option value="$PROJECT_DIR$/zaman/editSlider.php" />
         <option value="$PROJECT_DIR$/zaman/deleteSlider.php" />
+        <option value="$PROJECT_DIR$/zaman/sliderList.php" />
+        <option value="$PROJECT_DIR$/inc/slider.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -108,6 +112,11 @@
             <path>
               <item name="p1zamanwebdeveloperinphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="p1zamanwebdeveloperinphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p1zamanwebdeveloperinphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p1zamanwebdeveloperinphp" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="p1zamanwebdeveloperinphp" type="b2602c69:ProjectViewProjectNode" />
@@ -174,15 +183,15 @@
       <workItem from="1551665731470" duration="3882000" />
       <workItem from="1551682661283" duration="664000" />
       <workItem from="1551690453046" duration="12830000" />
-      <workItem from="1551710912158" duration="10144000" />
+      <workItem from="1551710912158" duration="11161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91087000" />
+    <option name="totallyTimeSpent" value="92104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
@@ -210,13 +219,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3791">
-          <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -453,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zaman/editSlider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zaman/deletepost.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -470,10 +465,10 @@
     <entry file="file://$PROJECT_DIR$/zaman/replymsg.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zaman/sliderList.php">
+    <entry file="file://$PROJECT_DIR$/zaman/editSlider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="130" selection-start-line="33" selection-start-column="122" selection-end-line="33" selection-end-column="130" />
+        <state relative-caret-position="425">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -481,6 +476,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaman/sliderList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="31" selection-start-line="16" selection-start-column="20" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="119" selection-start-line="8" selection-start-column="119" selection-end-line="8" selection-end-column="119" />
         </state>
       </provider>
     </entry>
