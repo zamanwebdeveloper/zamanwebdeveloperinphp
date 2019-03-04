@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f635f3d-65e8-4a09-b5ec-0b8fcb4dd4af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/js.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/meta.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/forgetpass.php" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/forgetpass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/img/livelogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/img/livelogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaman/upload/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/zaman/upload/logo.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zaman/forgetpass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="433">
               <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -35,19 +32,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../12.PHPOOPJQueryAjaxEssentialProjects/check/checkuser.php">
+        <entry file="file://$PROJECT_DIR$/inc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="17">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../12.PHPOOPJQueryAjaxEssentialProjects/user.php">
+        <entry file="file://$PROJECT_DIR$/scripts/meta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="526">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/js.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/css.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="149" column="29" lean-forward="true" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -99,6 +114,7 @@
     <findStrings>
       <find>image</find>
       <find>same</find>
+      <find>implode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,7 +126,6 @@
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/helpers/Format.php" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/inc/header.php" />
         <option value="$PROJECT_DIR$/post.php" />
         <option value="$PROJECT_DIR$/inc/sidebar.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -138,6 +153,10 @@
         <option value="$PROJECT_DIR$/../12.PHPOOPJQueryAjaxEssentialProjects/js/main.js" />
         <option value="$PROJECT_DIR$/../PhpForgetPasswordForm/index.php" />
         <option value="$PROJECT_DIR$/zaman/forgetpass.php" />
+        <option value="$PROJECT_DIR$/scripts/js.php" />
+        <option value="$PROJECT_DIR$/inc/header.php" />
+        <option value="$PROJECT_DIR$/scripts/meta.php" />
+        <option value="$PROJECT_DIR$/scripts/css.php" />
       </list>
     </option>
   </component>
@@ -162,6 +181,16 @@
             <path>
               <item name="p1zamanwebdeveloperinphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="p1zamanwebdeveloperinphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p1zamanwebdeveloperinphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p1zamanwebdeveloperinphp" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="p1zamanwebdeveloperinphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p1zamanwebdeveloperinphp" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,15 +250,16 @@
       <workItem from="1551636194757" duration="191000" />
       <workItem from="1551665731470" duration="3882000" />
       <workItem from="1551682661283" duration="664000" />
-      <workItem from="1551690453046" duration="4981000" />
+      <workItem from="1551690453046" duration="12199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73094000" />
+    <option name="totallyTimeSpent" value="80312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -260,13 +290,6 @@
     <entry file="file://$PROJECT_DIR$/inc/posts.php" />
     <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,7 +503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zaman/forgetpass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="433">
           <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -488,6 +511,34 @@
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="149" column="29" lean-forward="true" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
         </state>
       </provider>
     </entry>
