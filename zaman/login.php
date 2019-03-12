@@ -59,12 +59,16 @@
 			<div>
 				<input type="submit" value="Log in" />
 			</div>
-		</form><!-- form -->
-		<div class="button">
+		</form>
+		<!-- form -->
+
+		<!-- <div class="button">
 			<a href="forgetpass.php">Forgot Password</a>
-		</div><!-- button -->
+		</div> -->
+		
+		<!-- button -->
 		<div class="button">
-			<a href="#">Training with Zaman's project</a>
+			<a href="http://www.zamanwebdeveloper.com/">Zaman Web Developer</a>
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

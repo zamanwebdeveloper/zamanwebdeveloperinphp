@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.2
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 03, 2019 at 12:20 PM
--- Server version: 10.1.34-MariaDB
--- PHP Version: 7.2.7
+-- Generation Time: Mar 12, 2019 at 04:31 PM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -45,7 +45,8 @@ INSERT INTO `tbl_category` (`id`, `name`) VALUES
 (6, 'LARAVEL'),
 (7, 'Object Oriented PHP'),
 (8, 'SQL Queries with PhpMyAdmin'),
-(9, 'Health');
+(9, 'Health'),
+(10, 'Laravel');
 
 -- --------------------------------------------------------
 
@@ -72,7 +73,7 @@ INSERT INTO `tbl_contact` (`id`, `firstname`, `lastname`, `email`, `body`, `stat
 (2, 'Syed Zaman', 'Mostafiz', 'zamanwebdeveloper@gmail.com', 'This is our test message. This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.This is our test message.', 1, '2018-12-31 12:15:17'),
 (4, 'Syed Zaman', 'Mostafiz', 'zamanwebdeveloper@gmail.com', 'Testing Purpose', 1, '2019-01-01 09:09:19'),
 (5, 'Syed Zaman', 'Mostafiz', 'zamancsediue44@gmail.com', 'Testing Purpose', 0, '2019-01-01 09:35:12'),
-(6, 'Syed Zaman', 'Mostafiz', 'zamanwebdeveloper@gmail.com', 'kjhkj', 0, '2019-01-01 09:35:30');
+(7, 'Syed Zaman', 'Mostafiz', 'zamancsediue44@gmail.com', 'This is for testing purpose', 1, '2019-03-08 09:36:57');
 
 -- --------------------------------------------------------
 
@@ -90,7 +91,7 @@ CREATE TABLE `tbl_footer` (
 --
 
 INSERT INTO `tbl_footer` (`id`, `note`) VALUES
-(1, 'Copyright Training with Zaman\'s project.');
+(1, 'Copyright  Zaman Web Developer');
 
 -- --------------------------------------------------------
 
@@ -109,9 +110,8 @@ CREATE TABLE `tbl_page` (
 --
 
 INSERT INTO `tbl_page` (`id`, `name`, `body`) VALUES
-(1, 'About Us', '<p>About us..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>\r\n<p>About me..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>\r\n<p>About me..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. S</p>\r\n<p>About us..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>\r\n<p>About me..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>\r\n<p>About me..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>\r\n<p>ome text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>'),
-(2, 'MyCompletedProjects List', '<p><a title=\"Booststrap Skills\" href=\"completedprojects/08.BuildingWebsiteWithBootstrap/\" target=\"_blank\">08.BuildingWebsiteWithBootstrap</a></p>'),
-(5, 'DMCA', '<p>DMCA text will go here. Test Page text will go here. Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.Test Page text will go here. Test Page text will go here.</p>');
+(1, 'About Us', '<p>Hi , I am Professional Web Developer.</p>'),
+(2, 'MyCompletedProjects List', '<p><a title=\"Booststrap Skills\" href=\"completedprojects/08.BuildingWebsiteWithBootstrap/\" target=\"_blank\">08.BuildingWebsiteWithBootstrap</a></p>');
 
 -- --------------------------------------------------------
 
@@ -140,8 +140,30 @@ INSERT INTO `tbl_post` (`id`, `cat`, `title`, `body`, `image`, `author`, `tags`,
 (23, 1, 'HTML post title here', '<p>HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;</p>\r\n<p>HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;</p>\r\n<p>HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;HTML text will go here.&nbsp;</p>', 'upload/7104fe26bd.jpg', 'EditorZaman', 'HTML, Html, HTML5, Html5, Html Learning', '2018-12-30 03:57:40', 3),
 (24, 3, 'JavaScript Learning', '<p>JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;</p>\r\n<p>JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;</p>\r\n<p>JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;</p>\r\n<p>JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;JavaScript text will go here.&nbsp;</p>', 'upload/349df8fed2.jpeg', 'Author', 'JavaScript', '2019-01-01 13:25:04', 2),
 (25, 5, 'PHP Learning', '<p>PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;</p>\r\n<p>PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;</p>\r\n<p>PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;</p>\r\n<p>PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;PHP Test will go here.&nbsp;</p>', 'upload/94d9d64fb4.png', 'Syed Zaman Mostafiz', 'PHP', '2019-01-01 13:30:02', 0),
-(28, 6, 'Laravel', '<p>Laravel post will go here</p>', 'upload/29c6c51ebc.png', 'Editor', 'Laravel', '2019-01-02 07:24:38', 3),
+(28, 6, 'Laravel', '<p>Laravel post will go here</p>', 'upload/29c6c51ebc.png', 'Editor', 'Laravel', '2019-01-02 07:24:38', 0),
 (29, 1, 'HTML post title here', '<p>ddsfds</p>', 'upload/06751e8223.png', 'EditorZaman', 'HTML, Html, HTML5, Html5, Html Learning', '2019-01-02 07:49:42', 3);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_slider`
+--
+
+CREATE TABLE `tbl_slider` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_slider`
+--
+
+INSERT INTO `tbl_slider` (`id`, `title`, `image`) VALUES
+(9, 'First Slider will be go here', 'upload/slider/582a1c2fb7.jpg'),
+(10, 'Second Slider will be go here', 'upload/slider/2894698162.jpg'),
+(11, 'Third Slider will be go here', 'upload/slider/cbcc0cf9d8.jpg'),
+(12, 'Fourth Slider will be go here', 'upload/slider/9e0a283090.jpg');
 
 -- --------------------------------------------------------
 
@@ -167,6 +189,24 @@ INSERT INTO `tbl_social` (`id`, `fb`, `tw`, `ln`, `gp`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_theme`
+--
+
+CREATE TABLE `tbl_theme` (
+  `id` int(11) NOT NULL,
+  `theme` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tbl_theme`
+--
+
+INSERT INTO `tbl_theme` (`id`, `theme`) VALUES
+(1, 'green');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_user`
 --
 
@@ -185,11 +225,8 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id`, `name`, `username`, `password`, `email`, `details`, `role`) VALUES
-(1, 'Syed Zaman Mostafiz', 'AdminZaman', 'b236cd60c8d634e270a8b48b32e9b172', 'zamanwebdeveloper@gmail.com', '<p>Hey! I am Syed Zaman Mostafiz from Bangladesh.</p>', 0),
-(2, 'Nayan', 'Author', '202cb962ac59075b964b07152d234b70', 'nayan.djp@gmail.com', '<p>dfdsfsdfsdfsdsdfsd</p>', 1),
-(3, 'Sumon', 'Editor', '202cb962ac59075b964b07152d234b70', 'suman777333@gmail.com', '<p>suman777333@gmail.com</p>', 2),
-(4, '', 'Irin', '202cb962ac59075b964b07152d234b70', '', '', 1),
-(5, '', 'Irin', '202cb962ac59075b964b07152d234b70', 'irin@gmail.com', '', 1);
+(1, 'Syed Zaman Mostafiz', 'ZamanWebDeveloper', 'bb64bf8b36f0d75224da0db3e2b81dbd', 'zamanwebdeveloper@gmail.com', '<p>Hey! I am Syed Zaman Mostafiz from Bangladesh.</p>', 0),
+(4, '', 'zamancsediue44', 'ac02cafa03cf522264a271c35053418f', 'zamancsediue44@gmail.com', '', 1);
 
 -- --------------------------------------------------------
 
@@ -246,9 +283,21 @@ ALTER TABLE `tbl_post`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tbl_slider`
+--
+ALTER TABLE `tbl_slider`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tbl_social`
 --
 ALTER TABLE `tbl_social`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_theme`
+--
+ALTER TABLE `tbl_theme`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -271,13 +320,13 @@ ALTER TABLE `title_slogan`
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `tbl_contact`
 --
 ALTER TABLE `tbl_contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `tbl_footer`
@@ -289,7 +338,7 @@ ALTER TABLE `tbl_footer`
 -- AUTO_INCREMENT for table `tbl_page`
 --
 ALTER TABLE `tbl_page`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `tbl_post`
@@ -298,16 +347,28 @@ ALTER TABLE `tbl_post`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
+-- AUTO_INCREMENT for table `tbl_slider`
+--
+ALTER TABLE `tbl_slider`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
 -- AUTO_INCREMENT for table `tbl_social`
 --
 ALTER TABLE `tbl_social`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+-- AUTO_INCREMENT for table `tbl_theme`
+--
+ALTER TABLE `tbl_theme`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `title_slogan`
