@@ -1,9 +1,10 @@
 <?php include 'inc/header.php'?>
 <?php
-    if (!isset($_GET['pageid']) || $_GET['pageid'] == NULL) {
+	$pageid = mysqli_real_escape_string($db->link, $_GET['pageid']);
+    if (!isset($pageid) || $pageid == NULL) {
         header("Location: 404.php");
          }else{
-        $id = $_GET['pageid'];
+        $id = $pageid;
     }
 ?>
 <?php

@@ -1,10 +1,12 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/slider.php'; ?>
 <?php
-    if (!isset($_GET['search']) || $_GET['search'] == null ){
+    $Search = mysqli_real_escape_string($db->link, $_GET['search']);
+
+    if (!isset($Search) || $Search == null ){
         header("Location: 404.php");
     }else{
-        $search = $_GET['search'];
+        $search = $Search;
     }
 ?>
 

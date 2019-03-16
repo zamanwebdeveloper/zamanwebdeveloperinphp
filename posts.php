@@ -1,10 +1,12 @@
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/slider.php'; ?>
 <?php
-    if (!isset($_GET['category']) || $_GET['category'] == null ){
+    $categoryReal = mysqli_real_escape_string($db->link, $_GET['category']);
+
+    if (!isset($categoryReal) || $categoryReal == null ){
         header("Location: 404.php");
     }else{
-        $category = $_GET['category'];
+        $category = $categoryReal;
     }
 ?>
 
